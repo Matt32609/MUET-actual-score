@@ -44,3 +44,8 @@ OR
 
 - chmod +x MUET\ actual\ score.py
 - ./MUET\ actual\ score.py
+
+Example image of using it:
+-------------------------------------------------------------------
+<img width="1091" height="170" alt="MINGW64__c_Users_Matthew_Kam_Desktop_R_16_02_2026_22_48_51" src="https://github.com/user-attachments/assets/97638f45-d623-437e-9434-9d4373e1cf69" />
+
