@@ -2,9 +2,13 @@
 ---------------------------------------------------------------------------------------------------------------------------
 This project is a dedicated calculator designed to decode the Malaysian University English Test (MUET) certificate scores. While official results are scaled to 90 marks per component for standardization by the Malaysian Examinations Council (MPM) , many students and educators need to know the actual raw score obtained in each of the four components (Listening, Speaking, Reading, and Writing).
 
-The Problem: Calculating these scores manually involves repetitive algebra and different multipliers for different papers, which is prone to human error and time-consuming.
+The Problem: 
+-----------------------------------------------------------------------------------------------------------------------------
+Calculating these scores manually involves repetitive algebra and different multipliers for different papers, which is prone to human error and time-consuming.
 
-The Solution: This tool improves efficiency by automating the conversion logic. Users simply input their scaled scores, and the script instantly returns their true raw performance. This provides a clearer picture of a candidate's English proficiency levels before the scaling process is applied."
+The Solution:
+----------------------------------------------------------------------------------------------------------------------------
+This tool improves efficiency by automating the conversion logic. Users simply input their scaled scores, and the script instantly returns their true raw performance. This provides a clearer picture of a candidate's English proficiency levels before the scaling process is applied."
 
 What concepts have I integrated:
 ---------------------------------------------------------------------------------------------------------------------------
