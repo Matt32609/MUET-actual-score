@@ -47,5 +47,6 @@ OR
 
 Example image of using it:
 -------------------------------------------------------------------
-<img width="1091" height="170" alt="MINGW64__c_Users_Matthew_Kam_Desktop_R_16_02_2026_22_48_51" src="https://github.com/user-attachments/assets/97638f45-d623-437e-9434-9d4373e1cf69" />
+![Screenshot_20260216_225351_Gallery](https://github.com/user-attachments/assets/99f000fa-b6d8-45c1-bf8a-2ad5b69cfb35)
+
 
