@@ -14,7 +14,7 @@ What concepts have I integrated:
 ---------------------------------------------------------------------------------------------------------------------------
 - Modular Programming & Encapsulation:
 
-The logic is organized into distinct functions . This makes the code more readable and ensures that specific tasks—like greeting the user and processing scores—are isolated and manageable.
+The logic is organized into distinct functions . This makes the code more readable and ensures that specific tasks like greeting the user and processing scores—are isolated and manageable.
 
 - User Input & Data Validation:
 
