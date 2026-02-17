@@ -36,6 +36,10 @@ By implementing a while True loop, the script maintains a continuous session. Th
 
 The script accurately translates the official MUET scaling formulas into algorithmic logic, reversing the standardized /90 score by the Malaysian Examinations Council (MPM) back into its original raw obtained marks.
 
+- Error Handling (Try-Except Blocks)
+
+Instead of allowing the program to crash when a user enters non-numeric data (like letters), I implemented try-except blocks. This "catches" the ValueError before it stops the execution, allowing the program to provide a helpful error message and recover gracefully in building a fault-tolerant software.
+
 How to run it?
 --------------------------------------------------------------------
 - Use python3 ./MUET\ actual\ score.py 
