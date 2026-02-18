@@ -12,9 +12,9 @@ This tool improves efficiency by automating the conversion logic. Users simply i
 
 What concepts have I integrated:
 ---------------------------------------------------------------------------------------------------------------------------
-- Modular Programming & Encapsulation:
+- Modular Programming 
 
-The logic is organized into distinct functions . This makes the code more readable and ensures that specific tasks like greeting the user and processing scores—are isolated and manageable.
+The logic is organized into distinct functions . This makes the code more readable and ensures that specific tasks like greeting the user and processing scores are isolated and manageable.
 
 - User Input & Data Validation:
 
