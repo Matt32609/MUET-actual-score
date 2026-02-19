@@ -42,7 +42,7 @@ Instead of allowing the program to crash when a user enters non-numeric data (li
 
 - Usage of Boolean logic:
  
-The project employs Boolean Logical Operators (specifically the or operator) to perform range checking on numerical data. By evaluating multiple conditions in a single statement—such as ensuring a score is neither below the minimum (0) nor above the maximum (90) to ensure it enforces Data Integrity.
+The project employs Boolean Logical Operators (specifically the OR operator) to perform range checking on numerical data. By evaluating multiple conditions in a single statement—such as ensuring a score is neither below the minimum (0) nor above the maximum (90) to ensure it enforces Data Integrity.
 
 How to run it?
 --------------------------------------------------------------------
