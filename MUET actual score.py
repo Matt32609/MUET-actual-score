@@ -22,7 +22,7 @@ def answer():
             except ValueError:
                 print("Invalid response.")
                 return True          
-            confirmation = input("Do you wish to continue? Please respond with 'yes' or 'no' to respond.")
+            confirmation = input("Do you wish to continue? Please respond with 'yes' or 'no' to respond.").lower()
             if confirmation == "yes":
                 print(f"Alright")
                 return True
@@ -43,7 +43,7 @@ def answer():
             except ValueError:
                 print("Invalid response.")
                 return True          
-            confirmation = input("Do you wish to continue? Please respond with 'yes' or 'no' to respond.")
+            confirmation = input("Do you wish to continue? Please respond with 'yes' or 'no' to respond.").lower()
             if confirmation == "yes":
                 print(f"Alright")
                 return True
@@ -64,7 +64,7 @@ def answer():
             except ValueError:
                 print("Invalid response.")
                 return True          
-            confirmation = input("Do you wish to continue? Please respond with 'yes' or 'no' to respond.")
+            confirmation = input("Do you wish to continue? Please respond with 'yes' or 'no' to respond.").lower()
             if confirmation == "yes":
                 print(f"Alright")
                 return True
@@ -72,7 +72,7 @@ def answer():
                 exit()
         elif selection == "writing":
             print("Your score is literally on the certificate , no need to do some algebra...")
-            confirmation = input("Do you wish to continue? Please respond with 'yes' or 'no' to respond.")
+            confirmation = input("Do you wish to continue? Please respond with 'yes' or 'no' to respond.").lower()
             if confirmation == "yes":
                 print(f"Alright")
                 return True
