@@ -40,6 +40,10 @@ The script accurately translates the official MUET scaling formulas into algorit
 
 Instead of allowing the program to crash when a user enters non-numeric data (like letters), I implemented try-except blocks. This "catches" the ValueError before it stops the execution, allowing the program to provide a helpful error message and recover gracefully in building a fault-tolerant software.
 
+- Usage of Boolean logic:
+ 
+The project employs Boolean Logical Operators (specifically the or operator) to perform range checking on numerical data. By evaluating multiple conditions in a single statement—such as ensuring a score is neither below the minimum (0) nor above the maximum (90) to ensure it enforces Data Integrity.
+
 How to run it?
 --------------------------------------------------------------------
 - Use python3 ./MUET\ actual\ score.py 
