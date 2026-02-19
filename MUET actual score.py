@@ -11,6 +11,9 @@ def answer():
             score_input = input("Please enter the obtained score that you received as written on the certificate :")
             try:
                 score = float(score_input)
+                if score < 0 or score > 90:
+                    print("INVALID! MUET scores must be between 0 to 90.")
+                    return True
                 result = (score / 90) * 30
                 if result.is_integer:
                     print(f"Your actual score : {int(result)}/30")
@@ -29,6 +32,9 @@ def answer():
             score_input = input("Please enter the obtained score that you received as written on the certificate :")
             try:
                 score = float(score_input)
+                if score < 0 or score > 90:
+                    print("INVALID! MUET scores must be between 0 to 90.")
+                    return True
                 result = (score / 90) * 42
                 if result.is_integer:
                     print(f"Your actual score : {int(result)}/42")
@@ -47,6 +53,9 @@ def answer():
             score_input = input("Please enter the obtained score that you received as written on the certificate :")
             try:
                 score = float(score_input)
+                if score < 0 or score > 90:
+                    print("INVALID! MUET scores must be between 0 to 90.")
+                    return True
                 result = (score / 90) * 40
                 if result.is_integer:
                     print(f"Your actual score : {int(result)}/40")
