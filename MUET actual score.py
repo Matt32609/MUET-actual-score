@@ -80,7 +80,7 @@ def answer():
                 exit()
         else:
             print("Invalid response.")
-            exit()
+            return True
 answer()
 
 while True:
