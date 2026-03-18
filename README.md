@@ -46,12 +46,12 @@ The project employs Boolean Logical Operators (specifically the OR operator) to 
 
 How to run it?
 --------------------------------------------------------------------
-- Use python3 ./MUET\ actual\ score.py 
+- Use python3 ./MUET_actual_score.py 
 
 OR
 
-- chmod +x MUET\ actual\ score.py
-- ./MUET\ actual\ score.py
+- chmod +x MUET_actual_score.py
+- ./MUET_actual_score.py
 
 Example image of using it:
 -------------------------------------------------------------------
