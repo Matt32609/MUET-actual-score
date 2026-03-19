@@ -18,7 +18,7 @@ def answer():
                 if result.is_integer:
                     print(f"Your actual score : {int(result)}/30")
                 else:
-                    print(f"Your actual score : {result:2f}/30") 
+                    print(f"Your actual score : {result:.2f}/30") 
             except ValueError:
                 print("Invalid response.")
                 return True          
@@ -39,7 +39,7 @@ def answer():
                 if result.is_integer:
                     print(f"Your actual score : {int(result)}/42")
                 else:
-                    print(f"Your actual score : {result:2f}/42") 
+                    print(f"Your actual score : {result:.2f}/42") 
             except ValueError:
                 print("Invalid response.")
                 return True          
@@ -60,7 +60,7 @@ def answer():
                 if result.is_integer:
                     print(f"Your actual score : {int(result)}/40")
                 else:
-                    print(f"Your actual score : {result:2f}/40") 
+                    print(f"Your actual score : {result:.2f}/40") 
             except ValueError:
                 print("Invalid response.")
                 return True          
@@ -85,4 +85,5 @@ answer()
 
 while True:
     answer()
+    
     
