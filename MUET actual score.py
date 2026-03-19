@@ -15,7 +15,7 @@ def answer():
                     print("INVALID! MUET scores must be between 0 to 90.")
                     return True
                 result = (score / 90) * 30
-                if result.is_integer:
+                if result.is_integer():
                     print(f"Your actual score : {int(result)}/30")
                 else:
                     print(f"Your actual score : {result:.2f}/30") 
@@ -36,7 +36,7 @@ def answer():
                     print("INVALID! MUET scores must be between 0 to 90.")
                     return True
                 result = (score / 90) * 42
-                if result.is_integer:
+                if result.is_integer():
                     print(f"Your actual score : {int(result)}/42")
                 else:
                     print(f"Your actual score : {result:.2f}/42") 
@@ -57,7 +57,7 @@ def answer():
                     print("INVALID! MUET scores must be between 0 to 90.")
                     return True
                 result = (score / 90) * 40
-                if result.is_integer:
+                if result.is_integer():
                     print(f"Your actual score : {int(result)}/40")
                 else:
                     print(f"Your actual score : {result:.2f}/40") 
